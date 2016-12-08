@@ -1,0 +1,19 @@
+#writelab-button {
+  border-radius: 100px;
+  border: 1px solid;
+  color: #0077c8;
+  cursor: pointer;
+  display: inline-block !important;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.25px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+
+#writelab-button:hover {
+  background-color: #0077c8;
+  color: white;
+  text-decoration: none;
+  transition: all .3s ease 0s;
+}

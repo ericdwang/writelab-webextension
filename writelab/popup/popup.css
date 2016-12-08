@@ -1,0 +1,39 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+  background: white;
+}
+
+img {
+  padding: 10px 70px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+a {
+  color: #0077c8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+#toggle {
+  color: black;
+}

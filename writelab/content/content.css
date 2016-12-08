@@ -1,0 +1,47 @@
+#writelab-icon {
+  all: initial;
+  cursor: pointer;
+  opacity: .5;
+  position: absolute;
+  transition: opacity .25s ease;
+  z-index: 999;
+}
+
+#writelab-icon:hover {
+  opacity: 1;
+}
+
+#writelab-notification {
+  all: initial;
+  background: white;
+  border-top: 5px solid #0077c8;
+  box-shadow: 0 0 10px gray;
+  padding: 30px 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 1000;
+}
+
+#writelab-notification > * {
+  all: initial;
+}
+
+#writelab-notification > h4 + a {
+  margin-top: 20px;
+}
+
+#writelab-notification > h4 {
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#writelab-notification > img {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
