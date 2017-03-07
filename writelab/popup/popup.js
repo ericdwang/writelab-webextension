@@ -1,6 +1,6 @@
 'use strict';
 
-const URL = 'https://www.writelab.com';
+const URL = 'https://app.writelab.com';
 const DOCUMENTS_URL = URL + '/documents/';
 
 const login = document.getElementById('writelab-button');

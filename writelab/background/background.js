@@ -1,6 +1,6 @@
 'use strict';
 
-const BASE_URL = 'https://www.writelab.com';
+const BASE_URL = 'https://app.writelab.com';
 const API_URL = BASE_URL + '/api/demo/';
 const REQUEST_TIMEOUT = 10000;
 
